@@ -1,0 +1,44 @@
+{
+    "bookings": [
+        {
+            "parentName": "Lebron James",
+            "chindName": "Lebron Jr.",
+            "partySize": "28",
+            "address": "123 Beverly Hills Ln",
+            "date": "2021-08-28",
+            "duration": "3 hours"
+    
+        },
+    
+        {
+            "parentName": "Lebron James",
+            "chindName": "Lebron Jr.",
+            "partySize": "28",
+            "address": "123 Beverly Hills Ln",
+            "date": "2021-08-28",
+            "duration": "3 hours"
+    
+        },
+    
+        {
+            "parentName": "Lebron James",
+            "chindName": "Lebron Jr.",
+            "partySize": "28",
+            "address": "123 Beverly Hills Ln",
+            "date": "2021-08-28",
+            "duration": "3 hours"
+    
+        },
+    
+        {
+            "parentName": "Lebron James",
+            "chindName": "Lebron Jr.",
+            "partySize": "28",
+            "address": "123 Beverly Hills Ln",
+            "date": "2021-08-28",
+            "duration": "3 hours"
+    
+        }
+    
+    ]
+}
