@@ -7,6 +7,7 @@ const API = "http://localhost:8088"
 const mainContainer = document.querySelector("#container")
 
 export const sendReservations = (userServiceRequest) => {
+    debugger
     const fetchOptions = {
         method: "POST",
         headers: {
@@ -20,4 +21,4 @@ export const sendReservations = (userServiceRequest) => {
             mainContainer.dispatchEvent(new CustomEvent("stateChanged"))
         }
     )
-}
+} 

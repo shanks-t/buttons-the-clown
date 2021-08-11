@@ -1,6 +1,7 @@
 import { sendReservations } from "./dataAccess.js"
 
 const mainContainer = document.querySelector("#container")
+
 mainContainer.addEventListener("click", clickEvent => {
     if (clickEvent.target.id === "submitRequest") {
         // Get what the user typed into the form fields
