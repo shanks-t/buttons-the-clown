@@ -1,44 +1,40 @@
 {
-    "reservations": [
-        {
-            "parentName": "Lebron James",
-            "chindName": "Lebron Jr.",
-            "partySize": "28",
-            "address": "123 Beverly Hills Ln",
-            "date": "2021-08-28",
-            "duration": "3 hours"
-    
-        },
-    
-        {
-            "parentName": "Lebron James",
-            "chindName": "Lebron Jr.",
-            "partySize": "28",
-            "address": "123 Beverly Hills Ln",
-            "date": "2021-08-28",
-            "duration": "3 hours"
-    
-        },
-    
-        {
-            "parentName": "Lebron James",
-            "chindName": "Lebron Jr.",
-            "partySize": "28",
-            "address": "123 Beverly Hills Ln",
-            "date": "2021-08-28",
-            "duration": "3 hours"
-    
-        },
-    
-        {
-            "parentName": "Lebron James",
-            "chindName": "Lebron Jr.",
-            "partySize": "28",
-            "address": "123 Beverly Hills Ln",
-            "date": "2021-08-28",
-            "duration": "3 hours"
-    
-        }
-    
-    ]
+  "clowns": [
+    {
+      "name": "buttons",
+      "id": 1
+    },
+    {
+      "name": "lollipop",
+      "id": 2
+    }
+  ],
+  "reservations": [
+    {
+      "parentName": "Lebron James",
+      "childName": "Lebron Jr.",
+      "partySize": "28",
+      "address": "123 Beverly Hills Ln",
+      "date": "2021-08-28",
+      "duration": "3 hours",
+      "id": 3
+    },
+    {
+      "parentName": "kevin durant",
+      "childName": "Lebron Jr.",
+      "partySize": "28",
+      "address": "123 Beverly Hills Ln",
+      "date": "2021-08-28",
+      "duration": "3 hours",
+      "id": 4
+    }
+  ],
+  "completions": [
+    {
+      "reservationId": "3",
+      "clownId": "2",
+      "date": "2021-08-12T14:59:31.288Z",
+      "id": 1
+    }
+  ]
 }

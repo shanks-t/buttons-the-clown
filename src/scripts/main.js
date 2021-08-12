@@ -1,10 +1,21 @@
 import { Buttons } from "./Buttons.js"
+import { fetchReservations, fetchClowns } from "./dataAccess.js"
 
 
 const mainContainer = document.querySelector("#container")
 
 const render = () => {
-mainContainer.innerHTML = Buttons()
+    fetchReservations()
+    .then(
+        () => {
+           return fetchClowns()
+        }
+    )
+    .then(
+        () => {
+            mainContainer.innerHTML = Buttons()
+        }
+    )
 }
 
 render()
